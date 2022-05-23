@@ -22,11 +22,10 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(23, 23, 23);
-    animation-name: moveFromTop;
-    animation-duration: 3s;
+    animation: moveFromTop 3s;
 }
 
-.nav ul li{
+.navbar ul li{
     display: inline-block;
     margin: 0 10px;
     font-size: 1.5vw;
